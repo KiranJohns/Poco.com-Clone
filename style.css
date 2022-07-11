@@ -1,0 +1,160 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+background-color: black;
+overflow-x: hidden;
+}
+.top{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: black;
+overflow: hidden;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-left: 60px;
+    padding-right: 100px;
+}
+.logo img{
+    height: 62px;
+}
+.middle-nav{
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+}
+.middle-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    border-right: 2px;
+
+}
+.final-nav{
+padding-left: 830px;
+    flex: 1;
+}
+.final-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.slider{
+    overflow: hidden;
+   
+}
+.fig {
+    position:relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+   animation:animate 24s  linear infinite;
+}
+ .fig img{
+    width: 20%;
+    float: left;
+
+}
+@keyframes animate{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.models{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 1%;
+}
+.models img{
+padding-right: 3%;
+padding-left: 3%;
+}
+.vid{
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vid-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 1%;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.play{
+    width: 398px;
+    height: 265px;
+    overflow: hidden;
+}
+.box{
+display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    background-color:transparent
+    
+}
+.box-text{
+    color: azure;
+    background-color:transparent;
+    padding: 0;
+}
+.box-text h4{
+    padding: 0;
+}
+.box-content{
+    background-color:transparent;
+    overflow: hidden;
+    margin: 5px;
+}
+.box-content img{
+    height: 40px;
+    width: 40px;
+    padding: 0;
+}
+
+.line{
+    background-color: azure;
+    padding: .2px;
+}
+.final{
+    color: azure;
+    font: .8em sans-serif;
+    padding: 20px;
+}
